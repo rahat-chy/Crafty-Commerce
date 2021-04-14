@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Cabin', sans-serif;
+}
+
+body{
+  background: url('../images/banner7.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+section{
+  height: 1200px;
+  background: url("../images/test11.jpg") transparent no-repeat center center;
+  background-size: cover;
+}
+
+.wrapper{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  margin-top: 30px;
+  margin-left: 70rem;
+  max-width: 550px;
+  background: #e87109;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.wrapper h1{
+  color: black;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.header-team-page{
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  margin-right: -4px;
+  margin-bottom: 6rem;
+  text-align: center;
+  color: #333;
+  position: relative;
+  font-family: 'Cabin', sans-serif;
+}
+.header-team-page::after{
+  content: "";
+  width: 14rem;
+  height: 1rem;
+  background-color: black;
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2rem;
+}
+.contact-form{
+  display: flex;
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg{
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color: #c5ecfd;
+  width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+.btn {
+    background: green;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px){
+  section{
+    height: 1250px;
+  }
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
+  .wrapper{
+	 
+	  transform: translate(-50%,-2%);
+	  width: 100%;
+	  margin-top: 30px;
+	  margin-left: 20em;
+	  max-width: 300px;
+	  background: #e87109;
+	  padding: 30px;
+	  border-radius: 5px;
+	  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	}
+}
