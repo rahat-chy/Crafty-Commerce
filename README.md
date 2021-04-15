@@ -1,1 +1,1 @@
- This is a Website I developed in 3rd Year 1st Semester using html,css,php,bootstrap,js
+Crafty Commerce is a user friendly e-commerce site where one can find and buy exquisite products in a fair price that will satisfy one's potential needs. This is developed using html,css,php,bootstrap,js.
